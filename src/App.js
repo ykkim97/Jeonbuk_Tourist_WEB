@@ -1,9 +1,10 @@
 import './App.css';
+import HeadBar from './HeadBar';
 
 function App() {
   return (
     <>
-      전북특별자치도 관광명소
+      <HeadBar />
     </>
   );
 }
