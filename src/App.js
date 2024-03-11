@@ -13,9 +13,9 @@ function App() {
     setTourList(result);
   }, [])
 
-  useEffect(() => {
-    console.log(tourList)
-  }, [tourList])
+  // useEffect(() => {
+  //   console.log(tourList)
+  // }, [tourList])
 
   return (
     <>
